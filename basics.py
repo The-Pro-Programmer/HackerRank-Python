@@ -33,6 +33,14 @@ sfloat = float(sstr)
 print('Binary: ', sstr, ', Int:', snum)
 print('Binary: ', sstr, ', Float:', sfloat)
 
+#Adding number at the end of the list
+nums = []
+nums.append(1)
+#Adding number at the index
+nums.insert(1, 10)
+print(nums)
+
+
 #Flow Control - Loops - for, while
 for i in range(a):
     print('In loop: ', i*2)
@@ -42,5 +50,4 @@ if a>10 :
     print ('a is greater than 10')
 else :
     print('a is less than or equal to 10')
-
 
