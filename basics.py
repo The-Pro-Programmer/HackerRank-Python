@@ -51,3 +51,13 @@ if a>10 :
 else :
     print('a is less than or equal to 10')
 
+#List - Ordered, changeabble, duplicable items
+#Adding value at index in list
+fruitList = ['Apple', 'Banana', 'Cantaloupe', 'Apple', 6, True]
+print('Initialized list: ', fruitList)
+print('Length of list: ', len(fruitList))
+print('Type of object: ', type(fruitList))
+list2 = list((1,2,3,4))
+print('List initialized using constructor: ', list2)
+print('Acceing items using positive index 1: ', list2[1])
+print('Acceing items using negative index -1 and -2: ', list2[-1], ', ', list2[-2])
