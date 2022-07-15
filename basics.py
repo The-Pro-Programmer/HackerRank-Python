@@ -1,4 +1,7 @@
 #Print
+from math import floor, ceil
+
+
 print("Hello, World!")
 
 #Arithmatic
@@ -61,3 +64,17 @@ list2 = list((1,2,3,4))
 print('List initialized using constructor: ', list2)
 print('Acceing items using positive index 1: ', list2[1])
 print('Acceing items using negative index -1 and -2: ', list2[-1], ', ', list2[-2])
+
+#Python Math functions
+nums = (11,22,33,44,55,-110)
+print("Numbers: ", nums)
+print('Max: ', max(nums))
+print('Min: ', min(nums))
+n = 1.28
+print('Num: ', n, ', Floor: ', floor(n), ', Ceil: ', ceil(n))
+n = 1.5
+print('Num: ', n, ', Floor: ', floor(n), ', Ceil: ', ceil(n))
+n = 1.68
+print('Num: ', n, ', Floor: ', floor(n), ', Ceil: ', ceil(n))
+n = -1.68
+print('Num: ', n, ', Floor: ', floor(n), ', Ceil: ', ceil(n))
